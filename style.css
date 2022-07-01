@@ -1,3 +1,116 @@
-body{
-    background-color: rgb(202, 126, 247);
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Candara, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header div{
+    display: flex;
+    width: 100%;
+    height: 55vh;
+    background-image: url(img/hOogFA.jpg);
+    background-repeat: 1.5;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    display: flex;
+    font-size: 15vh;
+    color: rgb(119, 20, 155);
+    -webkit-text-stroke: 2.5px rgb(219, 101, 248);
+}
+main{
+    margin: 7.5vh;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    font-family: arial nova, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+main div{
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 3vh;
+    margin-top: -2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+main div img{
+    width: 95%;
+    padding: 1.5vh;
+}
+main h1{
+    color: rgb(83, 19, 143);
+    font-size: 6vh;
+}
+main p{
+    font-size: 2.8vh;
+    text-indent: 10vh;
+    text-align: justify;
+    font-weight: 550;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+}
+main p:first-of-type{
+    text-indent: 0;
+}
+main section p:first-of-type{
+    color: rgb(77, 17, 133);
+}
+main section p:last-of-type{
+    color: rgb(74, 9, 90);
+}
+footer{
+    background-color: rgb(212, 174, 255);
+    width: 100%;
+    height: 70vh;
+    align-items: flex-end;
+    display: flex;
+}
+footer section{
+    background-color: lueviolet;
+    width: 30%;
+    height: 62vh;
+    margin: 2.5vh;
+    margin-bottom: 6vh;
+    margin-right: 1vh;
+    margin-left: 5vh;
+}
+footer section h1{
+    padding: 1vh;
+    padding-left: 0;
+    font-size: 4vh;
+    color: rgb(69, 13, 122);
+}
+footer section:first-of-type h1{
+    color: rgb(55, 4, 85);
+}
+footer section:last-of-type h1{
+    color: rgb(149, 25, 221);
+}
+footer section img{
+    width: 55vh;
+    height: 35vh;
+}
+footer section p{
+    padding: 1vh;
+    padding-left: 0;
+    font-size: 2.5vh;
+    color: rgb(61, 11, 94);
+}
+footer section a{
+    float: right;
+    width: 18vh;
+    height: 6vh;
+    border-radius: 5vh;
+    margin-right: 3vh;
+    margin-top: 1.5vh;
+    background-color: rgb(110, 17, 146);
+    text-decoration: none;
+}
+footer section a p{
+    color: white;
+    font-size: 3.5vh;
+    text-align: center;
+    padding-top: -0.5px;
 }
