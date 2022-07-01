@@ -15,7 +15,7 @@ header div{
 }
 header h1{
     display: flex;
-    font-size: 15vh;
+    font-size: 18vh;
     color: rgb(119, 20, 155);
     -webkit-text-stroke: 2.5px rgb(219, 101, 248);
 }
