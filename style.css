@@ -25,19 +25,11 @@ main{
     margin-bottom: 8vh;
     font-family: arial nova, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-main div{
-    width: 100%;
-    height: 100vh;
-    margin-bottom: 3vh;
-    margin-top: -2vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-main div img{
-    width: 95%;
+
+main img{
+    width: 90%;
     padding: 1.5vh;
+    margin-left: 8vh;
 }
 main h1{
     color: rgb(83, 19, 143);
@@ -53,9 +45,11 @@ main p{
 }
 main p:first-of-type{
     text-indent: 0;
+    margin-top: 0;
 }
 main section p:first-of-type{
     color: rgb(77, 17, 133);
+    text-indent: 10vh;
 }
 main section p:last-of-type{
     color: rgb(74, 9, 90);
@@ -99,11 +93,10 @@ footer section p{
     color: rgb(61, 11, 94);
 }
 footer section a{
-    float: right;
+    float: left;
     width: 18vh;
     height: 6vh;
     border-radius: 5vh;
-    margin-right: 3vh;
     margin-top: 1.5vh;
     background-color: rgb(110, 17, 146);
     text-decoration: none;
