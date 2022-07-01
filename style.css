@@ -66,14 +66,13 @@ footer section{
     width: 30%;
     height: 62vh;
     margin: 2.5vh;
-    margin-bottom: 6vh;
-    margin-right: 1vh;
-    margin-left: 5vh;
+    margin-bottom: 5vh;
 }
 footer section h1{
     padding: 1vh;
     padding-left: 0;
-    font-size: 4vh;
+    font-size: 4.5vh;
+    padding-bottom: 3vh;
     color: rgb(69, 13, 122);
 }
 footer section:first-of-type h1{
@@ -83,13 +82,14 @@ footer section:last-of-type h1{
     color: rgb(149, 25, 221);
 }
 footer section img{
-    width: 55vh;
-    height: 35vh;
+    width: 54vh;
+    height: 32vh;
 }
 footer section p{
     padding: 1vh;
     padding-left: 0;
     font-size: 2.5vh;
+    text-align: justify;
     color: rgb(61, 11, 94);
 }
 footer section a{
@@ -106,4 +106,12 @@ footer section a p{
     font-size: 3.5vh;
     text-align: center;
     padding-top: -0.5px;
+}
+footer section:first-of-type{
+    margin-right: 1vh;
+    margin-left: 8vh;
+}
+footer section:last-of-type{
+    margin-right: 1vh;
+    margin-left: 1vh;
 }
