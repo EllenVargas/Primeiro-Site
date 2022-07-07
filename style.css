@@ -102,11 +102,11 @@ footer section a{
     background-color: rgb(110, 17, 146);
     text-decoration: none;
 }
-footer section a p{
+footer section a h4{
     color: white;
     font-size: 3.5vh;
     text-align: center;
-    padding-top: -0.5px;
+    padding-top: 0.5vh;
 }
 footer section:first-of-type{
     margin-right: 1vh;
@@ -121,4 +121,10 @@ footer section:last-of-type a{
 }
 footer section:first-of-type a{
     background-color: rgb(61, 11, 94) ;
+}
+footer section:last-of-type p{
+    color: rgb(153, 87, 214);
+}
+footer section:first-of-type p{
+    color: rgb(119, 47, 148);
 }
