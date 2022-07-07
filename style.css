@@ -116,3 +116,9 @@ footer section:last-of-type{
     margin-right: 1vh;
     margin-left: 1vh;
 }
+footer section:last-of-type a{
+    background-color: rgb(149, 25, 221);
+}
+footer section:first-of-type a{
+    background-color: rgb(61, 11, 94) ;
+}
